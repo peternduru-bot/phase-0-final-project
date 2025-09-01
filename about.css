@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(187, 208, 209);
+}
+
+h1 {
+   margin: 2rem;
+    font-style: italic;
+}
+h2 {
+    margin: 2rem;
+    color: blue;
+}
+
+h3 {
+    margin: 2rem;
+    color: blue;
+}
+.img-container {
+    display: flex;
+    justify-content: flex-end; 
+    margin: 20px;
+    
+  }
+  
+  .img-container img {
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+    
+  }

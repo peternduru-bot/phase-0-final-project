@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(187, 208, 209);
+}
+
+h1 {
+    color: black;
+    margin: 1rem;
+    padding: 1rem;
+    font-weight: bold;
+    border-bottom: 3px solid gray;
+}
+
+.links {
+    position: absolute;  
+    top: 40px;            
+    right: 100px;        
+    display: flex;
+    gap: 100px;
+}
+  
+.links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+.img-container {
+  display: flex;
+  justify-content: flex-end; 
+  margin: 20px;
+}
+
+
+.img-container img {
+  width: 400px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s ease;
+}
+
+
+p {
+    color: #553d3d; 
+    text-align: left;
+    margin: 5rem;
+    position: relative;
+    top: -370px; 
+    font-size: xX-large;
+    font-weight: bolder;
+  }
+  
